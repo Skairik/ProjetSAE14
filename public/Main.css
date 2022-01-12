@@ -47,7 +47,7 @@ body{
 }
 
 .button {
-  background-color: #4CAF50;
+  background-color: #af4c4c;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -64,7 +64,7 @@ body{
 .buttonvert {
   background-color: rgba(255,255,255,0.85); 
   color: black; 
-  border: 2px solid #04AA6D;
+  border: 2px solid #aa0404;
 }
 
 .button a{
@@ -76,7 +76,7 @@ body{
 }
 
 .buttonvert:hover {
-  background-color: #04AA6D;
+  background-color: #aa0404;
   color: white;
 }
 .centrebut{
@@ -194,7 +194,7 @@ img:hover{
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #aa0404;
   color: rgb(0, 0, 0);
 }
 
@@ -240,7 +240,7 @@ a:hover {
 }
 
 .BgVert{
-  background-color: #04AA6D;
+  background-color: #aa0404;
 }
 
 .fa {
@@ -297,7 +297,7 @@ input[type=text], input[type=password] {
 }
 
 .buttonf {
-  background-color: #04AA6D;
+  background-color: #aa0404;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
