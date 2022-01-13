@@ -1,11 +1,17 @@
 body{
   background-color: rgb(37, 37, 37);
+  color:white
 }
 
 .Fond2{
   background-color: rgb(255, 254, 254);
 }
-
+h3{
+  color: white;
+}
+h5{
+  color: white;
+}
 #hd {
   background-image: url(cloud.png);
   background-repeat: no-repeat;
@@ -62,22 +68,22 @@ body{
 }
 
 .buttonvert {
-  background-color: rgba(255,255,255,0.85); 
-  color: black; 
+  background-color: rgba(0, 0, 0, 0.85); 
+  color: white; 
   border: 2px solid #aa0404;
 }
 
 .button a{
-  color: black;
+  color: white;
 }
 
 .button a:hover{
-  color: white;
+  color: black;
 }
 
 .buttonvert:hover {
   background-color: #aa0404;
-  color: white;
+  color: black;
 }
 .centrebut{
   position: relative;
@@ -128,7 +134,7 @@ img:hover{
 .Texte{
   margin-top: 1%;
   border-radius: 25px;
-  background: rgba(255,255,255,0.85);
+  background: rgba(0, 0, 0, 0.85);
   padding: 2%;
   width: 100%;
   text-align: left;
@@ -175,13 +181,14 @@ img:hover{
 }
 .topnav {
   overflow: hidden;
-  background-color: rgb(243, 237, 237);
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #000000;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -189,7 +196,7 @@ img:hover{
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #aa0404;
   color: rgb(0, 0, 0);
 }
 
@@ -280,7 +287,7 @@ a:hover {
 .Fin {
   padding: 0.5%;
   text-align: center;
-  background: rgb(253, 252, 252);
+  background: rgb(0, 0, 0);
   margin-top: 3%;
   border-radius: 25px;
 }
