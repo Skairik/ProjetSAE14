@@ -52,15 +52,16 @@
           var mail = document.getElementById("mail");
           var name = document.getElementById("nom");
           if (checkBox.checked == true){
-            if (mail.value!="" && name.value!=""){
-              text.style.display = "block";
+            if (mail.value!="" || name.value!=""){
+              text.style.display = "none";
+              alert("Veuillez ne pas remplir les champs")
+              checkBox.checked == false
             }
             else{
-              alert("Veuillez remplir les champs")
-              checkBox.checked = false
+              text.style.display = "block";
             }
           } else {
-            text.style.display = "none";
+              text.style.display = "block";
           }
         }
       </script>
